@@ -8,3 +8,10 @@ function paginate(array, page_size, page_number) {
 }
 
 ```
+```js
+const quotaIdChunks: number[][] = []
+      const quotaIdsCopy = [...quotaIds]
+      while (quotaIdsCopy.length)
+        quotaIdChunks.push(quotaIdsCopy.splice(0, 2000))
+
+        ```
